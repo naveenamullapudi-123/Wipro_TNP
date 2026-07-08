@@ -15,16 +15,3 @@ class CmdThree {
     }
 }
 
-/*Question 3:
-Write a Program to accept two integers as command line arguments and print the
-sum of the two numbers
-M
-Example1)
-C:\>java Sample 1020
-0/P Expected: The sum of 10 and 20 is 30
-*/
-
-/*Output:
-java CmdThree 10 20
-The sum of 10 and 20 is 30
-*/

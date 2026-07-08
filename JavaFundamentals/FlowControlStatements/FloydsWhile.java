@@ -24,15 +24,3 @@ class FloydsWhile {
     }
 }
 
-/*Question 15B:
-Print * in Floyd's Format (Using while Loop)
-*/
-
-/*Output:
-java FloydsWhile 5
-*
-* *
-* * *
-* * * *
-* * * * *
-*/

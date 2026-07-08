@@ -22,14 +22,3 @@ class SmallLarge {
     }
 }
 
-/*Question 5:
-Write a program to find the largest 2 numbers and the smallest 2 numbers in the given array.
-*/
-
-/*Output:
-java SmallLarge
-Smallest Number = 10
-Second Smallest Number = 20
-Largest Number = 50
-Second Largest Number = 40
-*/

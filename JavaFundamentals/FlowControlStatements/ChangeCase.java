@@ -16,20 +16,3 @@ class ChangeCase {
     }
 }
 
-/*Question 7:
-Initialize a character variable wtch an alphabhet in a program.
-If the character value is in 1owercase, the output should be displayed in uppercase in the following format.
-Example1)
-i/p:a
-0/p:a->A
-If the character value is in uppercase, the output should be displayed in lowercase in the following format.
-Example2)
-i/p:A
-0/p:A->a
-*/
-
-/*Output:
-java ChangeCase
-Enter an alphabet: a
-a -> A
-*/

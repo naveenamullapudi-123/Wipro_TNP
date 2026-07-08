@@ -17,15 +17,4 @@ class FloydFor {
     }
 }
 
-/*Question 15A:
-Print * in Floyd's Format (Using for Loop)
-*/
 
-/*Output:
-java FloydFor 5
-*
-* *
-* * *
-* * * *
-* * * * *
-*/

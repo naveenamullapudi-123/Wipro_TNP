@@ -17,13 +17,4 @@ class PosNegZero {
     }
 }
 
-/*Question:
-1A) Write a program to check if a given integer number is Positive, Negative, or Zero.
-M
-*/
 
-/*Output:
-java PosNegZero
-Enter a number: 10
-Positive
-*/

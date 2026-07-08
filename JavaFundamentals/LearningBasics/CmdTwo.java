@@ -10,13 +10,4 @@ class CmdTwo {
     }
 }
 
-/*Question 2:
-Write a Program to accept a String as a command line 'yargument and print a Welcome message as given below.
-Example1)
-C:1> java Sample John
-O/P Expected :Welcome John
-*/
 
-/*Output:
-java CmdTwo John
-Welcome John*/

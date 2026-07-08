@@ -18,14 +18,3 @@ class LastDigit {
     }
 }
 
-/*Question:
-1B) Given two non-negative int values, print true if they have the same last digit, such as with 27 and 57.
-lastDigit(7, 17) っ true lastDigit(6, 17) →false lastDigit(3, 113) → true
-*/
-
-/*Output:
-java LastDigit
-Enter first number: 23
-Enter second number: 43
-true
-*/

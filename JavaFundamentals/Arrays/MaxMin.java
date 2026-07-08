@@ -19,13 +19,3 @@ class MaxMin {
         System.out.println("Minimum = " + min);
     }
 }
-
-/*Question 2:
-Write a program to initialize an integer array and find the maximum and minimum value of the array.
-*/
-
-/*Output:
-java MaxMin
-Maximum = 50
-Minimum = 10
-*/

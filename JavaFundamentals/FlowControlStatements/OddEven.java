@@ -15,12 +15,4 @@ class OddEven {
     }
 }
 
-/*Question 2:
-Write a program to check whether a given number is odd or even.
-*/
 
-/*Output:
-java OddEven
-Enter a number: 10
-Even
-*/

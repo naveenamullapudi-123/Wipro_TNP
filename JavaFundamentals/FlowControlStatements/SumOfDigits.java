@@ -19,15 +19,3 @@ class SumOfDigits {
     }
 }
 
-/*Question 14:
-Write a program to print the sum of all the digits of a given number.
-Example1)
-I/P:1234
-O/P:10
-*/
-
-/*Output:
-java SumOfDigits
-Enter a number: 1234
-Sum of digits = 10
-*/

@@ -20,12 +20,3 @@ class ReverseNumber {
     }
 }
 
-/*Question 16:
-Write a program to reverse a given number.
-*/
-
-/*Output:
-java ReverseNumber
-Enter a number: 1234
-Reverse = 4321
-*/

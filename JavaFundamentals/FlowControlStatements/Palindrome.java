@@ -23,11 +23,3 @@ class Palindrome {
     }
 }
 
-/*Question 17:
-Write a program to check whether a given number is palindrome or not.
-*/
-
-/*Output:
-java Palindrome 12321
-12321 is a palindrome
-*/

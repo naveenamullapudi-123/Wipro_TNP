@@ -23,12 +23,3 @@ class Sorting {
     }
 }
 
-/*Question 6:
-Write a program to initialize an array and print them in a sorted order.
-*/
-
-/*Output:
-java Sorting
-Sorted Array:
-10 20 30 40 50
-*/

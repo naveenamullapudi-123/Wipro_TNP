@@ -23,12 +23,3 @@ class Prime {
     }
 }
 
-/*Question 12:
-Write a program to check if a given number is prime or not.
-*/
-
-/*Output:
-java Prime
-Enter a number: 7
-Prime Number
-*/

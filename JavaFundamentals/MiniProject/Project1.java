@@ -1,22 +1,19 @@
-// Employee Information - Input & Display
+//Employe Information - Input & Display
 class Project1
 {
     public static void main(String args[])
     {
-        // Check whether employee id is entered
+        
         if(args.length != 1)
         {
             System.out.println("Please enter an employee id");
             return;
         }
 
-        // Convert employee id from String to Integer
         int empId = Integer.parseInt(args[0]);
 
-        // Employee IDs
         int empNo[] = {1001,1002,1003,1004,1005,1006,1007};
 
-        // Employee Names
         String empName[] = {
             "Ashish",
             "Sushma",
@@ -27,7 +24,6 @@ class Project1
             "Tanmay"
         };
 
-        // Join Dates
         String joinDate[] = {
             "01/04/2009",
             "23/08/2012",
@@ -38,10 +34,9 @@ class Project1
             "12/06/2006"
         };
 
-        // Designation Codes
+
         char desCode[] = {'e','c','k','r','m','e','c'};
 
-        // Departments
         String department[] = {
             "R&D",
             "PM",
@@ -52,19 +47,14 @@ class Project1
             "PM"
         };
 
-        // Basic Salary
         int basic[] = {20000,30000,10000,12000,50000,23000,29000};
 
-        // House Rent Allowance (HRA)
         int hra[] = {8000,12000,8000,6000,20000,9000,12000};
 
-        // Income Tax (IT)
         int it[] = {3000,9000,1000,2000,20000,4400,10000};
 
-        // Variable to store employee position
         int index = -1;
 
-        // Search employee using employee id
         for(int i = 0; i < empNo.length; i++)
         {
             if(empNo[i] == empId)
@@ -74,18 +64,15 @@ class Project1
             }
         }
 
-        // If employee is not found
         if(index == -1)
         {
             System.out.println("There is no employee with empid : " + empId);
             return;
         }
 
-        // Variables for designation and DA
         String designation = "";
         int da = 0;
 
-        // Find designation and DA using switch-case
         switch(desCode[index])
         {
             case 'e':
@@ -114,13 +101,10 @@ class Project1
                 break;
         }
 
-        // Calculate salary
         int salary = basic[index] + hra[index] + da - it[index];
 
-        // Print heading
         System.out.println("Emp No\tEmp Name\tDepartment\tDesignation\tSalary");
 
-        // Print employee details
         System.out.println(empNo[index] + "\t" +
                            empName[index] + "\t\t" +
                            department[index] + "\t\t" +
@@ -129,11 +113,3 @@ class Project1
     }
 }
 
-/*Output:
-java Project1 1003
-Emp No	Emp Name	Department	Designation	Salary
-1003	Rahul		Acct		Clerk		19000
-
-java Project1 123
-There is no employee with empid : 123
-*/

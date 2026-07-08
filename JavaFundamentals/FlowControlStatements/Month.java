@@ -51,22 +51,3 @@ class Month {
     }
 }
 
-/*Question 9:
-Write a program to receive a number and print the corresponding month name.
-Example1)
-C:>java Sample 12
-0/P Expected :December
-Example2)
- 
-C:>iava Sample
-
-0/P Expected : Please enter the month in numbers
-Example3)
-C:\>java Sample 15
-0/P Expected: Invalid month
-*/
-
-/*Output:
-java Month 12
-December
-*/
