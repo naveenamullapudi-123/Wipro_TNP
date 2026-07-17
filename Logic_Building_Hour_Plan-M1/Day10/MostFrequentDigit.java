@@ -23,6 +23,6 @@ public class MostFrequentDigit {
 
         System.out.println("Most Frequent Digit = " + digit);
 
-        sc.close();
+
     }
 }

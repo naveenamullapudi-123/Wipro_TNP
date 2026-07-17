@@ -17,6 +17,6 @@ public class StringWeight {
 
         System.out.println("Weight = " + weight);
 
-        sc.close();
+
     }
 }

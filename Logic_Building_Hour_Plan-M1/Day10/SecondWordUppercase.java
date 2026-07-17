@@ -13,6 +13,6 @@ public class SecondWordUppercase {
         else
             System.out.println("Second word not found");
 
-        sc.close();
+
     }
 }
